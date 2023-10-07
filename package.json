@@ -1,0 +1,27 @@
+{
+  "name": "concourse-pipelines-testing",
+  "version": "1.0.0",
+  "description": "sample node.js repo for concourse pipeline testing",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikalauskas-Ricardas/concourse-pipelines-testing.git"
+  },
+  "author": "Ricardas Mikalauskas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikalauskas-Ricardas/concourse-pipelines-testing/issues"
+  },
+  "homepage": "https://github.com/Mikalauskas-Ricardas/concourse-pipelines-testing#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.18",
+    "express": "^4.18.2"
+  }
+}
