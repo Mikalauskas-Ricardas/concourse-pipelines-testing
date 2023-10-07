@@ -8,5 +8,7 @@ app.listen(port, () => {
 });
 
 app.use('/', (req: Request, res: Response) => {
-    res.send('Hello world!');
+    res.json({message: "Hello world!"});
 });
+
+export default app;
